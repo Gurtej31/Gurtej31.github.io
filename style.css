@@ -1,0 +1,261 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+    }
+    
+    header {
+        color: white;
+        text-align: center;
+        font-size: large;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+    background-color: #194958;
+    }
+    
+    .logo h1 {
+        display: flex;
+    margin: 0;
+    font-size: 32px;
+    color: #333;
+    }
+    nav {
+        background-color: #00bfff;
+    }
+    
+    nav ul {
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    }
+    
+    nav li {
+    margin-left: 25px;
+    }
+    
+    nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    }
+    
+    nav a:hover {
+    color: #00bfff;
+    }
+    
+    .banner {
+    background-image: url(Banner.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+    
+    .banner h2 {
+    font-size: 48px;
+    color: #fff;
+    margin: 0;
+    }
+    
+    .banner p {
+    font-size: 24px;
+    color: #fff;
+    margin: 20px 0;
+    }
+    
+    .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00bfff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    }
+    
+    .button:hover {
+    background-color: #fff;
+    color: #00bfff;
+    }
+    
+    .about {
+    padding: 50px;
+    background-color: #fff;
+    }
+    
+    .about h2 {
+    font-size: 32px;
+    color: #333;
+    margin: 0 0 20px 0;
+    }
+    
+    .about p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.5;
+    margin: 0;
+    }
+    
+    #grid1 {
+        display: grid;
+    }
+    
+    .programs {
+    padding: 50px;
+    background-color: #f0f0f0;
+    align-content: left;
+    }
+    
+    .programs h2 {
+    font-size: 32px;
+    color: #333;
+    margin: 0 0 20px 0;
+    }
+    
+    .programs ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    }
+    
+    .programs li {
+    margin: 0 10px 10px 0;
+    }
+    
+    .programs a {
+    display: block;
+    padding: 20px;
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #333;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    }
+    
+    .programs a:hover {
+    background-color: #00bfff;
+    color: #fff;
+    border-color: #00bfff;
+    }
+    
+    .workouts {
+    padding: 50px;
+    background-color: #fff;
+    align-content: right;
+    }
+    .workouts h2 {
+        font-size: 32px;
+        color: #333;
+        margin: 0 0 20px 0;
+        }
+        
+        .workouts ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        }
+        
+        .workouts li {
+        margin: 0 10px 10px 0;
+        }
+        
+        .workouts img {
+        max-width: 100%;
+        }
+        
+        .nutrition {
+        padding: 50px;
+        background-color: #f0f0f0;
+        }
+        
+        .nutrition h2 {
+        font-size: 32px;
+        color: #333;
+        margin: 0 0 20px 0;
+        }
+        
+        .nutrition ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        }
+        
+        .nutrition li {
+        margin: 0 10px 10px 0;
+        }
+        
+        .nutrition img {
+        max-width: 100%;
+        }
+        
+        .contact {
+        padding: 50px;
+        background-color: #fff;
+        }
+        
+        .contact h2 {
+        font-size: 32px;
+        color: #333;
+        margin: 0 0 20px 0;
+        }
+        
+        .contact label {
+        display: block;
+        margin-bottom: 10px;
+        font-size: 18px;
+        color: #333;
+        }
+        
+        .contact input,
+        .contact textarea {
+        padding: 10px;
+        font-size: 18px;
+        color: #333;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        }
+        
+        .contact input[type="submit"] {
+        background-color: #00bfff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-size: 18px;
+        font-weight: bold;
+        cursor: pointer;
+        }
+        
+        .contact input[type="submit"]:hover {
+        background-color: #fff;
+        color: #00bfff;
+        }
+        
+        footer {
+        background-color: black;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        
+        }
+        

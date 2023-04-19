@@ -1,0 +1,125 @@
+<!-- Membership Page -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fitness Freaks Membership</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+      .membership {
+            padding: 50px;
+            background-color: #f0f0f0;
+            }
+            
+            .membership h2 {
+            font-size: 32px;
+            color: #333;
+            margin: 0 0 20px 0;
+            }
+
+            .membershipmain p {
+                font-weight: bold;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            
+            .membership label {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 18px;
+            color: #333;
+            }
+            
+            .membership input {
+            padding: 10px;
+            font-size: 18px;
+            color: #333;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            }
+            
+            .membership input[type="submit"] {
+            background-color: #00bfff;
+            color: #fff;
+            border: none;
+            }
+            
+
+            .membershipmain{
+                text-align: center;
+                background-color: honeydew;
+            }
+             fieldset {
+                margin-left: 30em;
+                margin-right: 30em;
+                margin-bottom: 1em;
+                margin-top: 2em;
+                text-align: right;
+                padding-right: 8%;
+                background-color: whitesmoke;
+                border: solid black;
+                font-weight: bold;
+            }
+            legend {
+                text-align: left;
+                font-size: larger;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-weight: bold;
+                color: black;
+                border: solid black;
+                background-color: #00bfff;
+
+            }
+            fieldset h2 {
+                text-align: left;
+            }
+    </style>
+  </head>
+  <body>
+    <header>
+      No Excuses, Start From Today
+    </header>
+    <nav>
+      <ul>
+        <div class="logo">
+          <h1>Fitness Freaks</h1>
+      </div> &nbsp; &nbsp;
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="programs.html">Programs</a></li>
+        <li><a href="workouts.html">Workouts</a></li>
+        <li><a href="nutrition.html">Nutrition</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="login.html">Login/Signup</a></li>
+        <li><a href="store.html">Store</a></li>
+        <li><a href="articles.html">Articles</a></li>
+        <li><a href="membership.html">Membership</a></li>
+      </ul>
+    </nav>
+    <main class="membershipmain">
+      <h1>Fitness Freaks Membership</h1>
+      <p>Join Fitness Freaks today and get access to personalized training and dietary plans tailored to your individual needs.</p>
+      <fieldset>
+        <legend> Choose Your Plan:</legend>
+      <form class="membershipform">
+        <label for="basic">Basic Membership ($19.99/month)</label>
+        <input type="radio" id="basic" name="membership" value="basic"> <br>
+        <label for="pro">Pro Membership ($29.99/month)</label>
+        <input type="radio" id="pro" name="membership" value="pro"> <br>
+        <label for="premium">Premium Membership ($49.99/month)</label>
+        <input type="radio" id="premium" name="membership" value="premium"> <br>
+        <h2>Payment Details:</h2>
+        <label for="card">Card Number:</label>
+        <input type="text" id="card" name="card"> <br>
+        <label for="expiry">Expiry Date:</label>
+        <input type="text" id="expiry" name="expiry"> <br>
+        <label for="cvv">CVV:</label>
+        <input type="text" id="cvv" name="cvv"> <br>
+        <button type="submit">Sign Up</button>
+      </form>
+    </fieldset>
+    </main>
+    <footer>
+      <p>&copy; 2023 Fitness Freaks. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

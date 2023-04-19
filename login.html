@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login | Fitness Freaks</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        main{
+            background-color: honeydew;
+        }
+.login-container {
+	margin: 50px auto;
+	max-width: 800px;
+	padding: 20px;
+	background-color: #f5f5f5;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.login-form label {
+	display: block;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.login-form input[type=email],
+.login-form input[type=password],
+.login-form textarea{
+	display: block;
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-color: black;
+    background-color: white;
+    height: 20px;
+}
+
+.login-form input[type=submit] {
+	background-color: #0077c0;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.login-form input[type=submit]:hover {
+	background-color: #005b8a;
+}
+
+.login-form p {
+	margin-top: 20px;
+	font-size: 14px;
+}
+
+    </style>
+</head>
+<body>
+    <header>Login to your Fitness Freaks account</header>
+    <nav>
+        
+        <ul>
+            <div class="logo">
+                <h1>Fitness Freaks</h1>
+            </div> &nbsp; &nbsp; 
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="programs.html">Programs</a></li>
+            <li><a href="workouts.html">Workouts</a></li>
+            <li><a href="nutrition.html">Nutrition</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="login.html">Login/Signup</a></li>
+            <li><a href="store.html">Store</a></li>
+            <li><a href="articles.html">Articles</a></li>
+            <li><a href="membership.html">Membership</a></li>
+        </ul>
+    </nav>
+    <main>
+	<div class="login-container">
+		<h1>Login</h1>
+		<form class="login-form" action="" method="post">
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required>
+			<label for="password">Password:</label>
+			<input type="password" id="password" name="password" required><br>
+			<input type="submit" value="Login">
+		</form>
+		<p>Don't have an account? <a href="signup.html">Sign up</a></p>
+	</div>
+    </main>
+    <footer>
+        <p>&copy; Fitness Freaks 2023. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
